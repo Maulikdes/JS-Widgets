@@ -159,6 +159,9 @@
         border-radius: 6px;
         box-shadow: 0px 0px 20px #acacac;
       }
+      #task-input{
+        width:70%;
+      }
     `;
 
     // not use window.onload as it will override other mehtods instead adding new listner
