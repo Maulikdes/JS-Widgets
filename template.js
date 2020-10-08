@@ -6,7 +6,7 @@
         <div id="widget-content">
         <!-- =========================
 
-                Widget HTML code start
+                Widget HTML code
 
             ============================ -->
         </div>
@@ -71,8 +71,9 @@
         // Create container div and append it to body
         var container = document.createElement('div');
         container.setAttribute("class", "draggable");
+        container.setAttribute("id", "maulik-widget");
         container.innerHTML = html
-        document.body.appendChild(div)
+        document.body.appendChild(container);
 
         var style = document.createElement('style');
         style.innerHTML = styles;
